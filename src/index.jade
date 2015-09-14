@@ -1,5 +1,5 @@
 doctype html
-html(lang="en-US")
+html(lang="en-US", ng-app="weatherUnderground")
 
   head
     meta(charset="utf-8")
@@ -7,7 +7,10 @@ html(lang="en-US")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title Angular Weather
   body
-    .container
-      h1 This is the temperature
+    .container(ng-controller="Main as main")
+      h1 The weather is {{main.curr}} with a temperature of {{main.temp}}.
+      form(name="zipCodeSearch")
+        input.form-control(placeholder="zip code" ng-model="number")
+        button.btn.btn-primary() Zip Code Search
     script(src="lib/build.js")
     script(src="js/main.js")
