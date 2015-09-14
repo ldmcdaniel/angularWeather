@@ -4,7 +4,7 @@
 
 This is an in-class project at NSS.
 
-The project was used to teach AngularJS.  It is currently broken and was not fixed during class.  I plan to fix this at a later time.
+The project was used to teach AngularJS and Grunt.  It is currently broken and was not fixed during class.  I plan to fix this at a later time.
 
 ## What technologies does the project use?
 
