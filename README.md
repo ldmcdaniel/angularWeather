@@ -4,11 +4,11 @@
 
 This is an in-class project at NSS.
 
-The project was used to teach AngularJS and Grunt.  It is currently broken and was not fixed during class.  I plan to fix this at a later time.
+The project was used to teach fetching data from an API whie AngularJS and Grunt.
 
 ## What technologies does the project use?
 
-NPM, HTML5, CSS3, GitHub, Grunt, BootStrap, and AngularJS.
+NPM, HTML5, CSS3, GitHub, Grunt, BootStrap, and AngularJS, API.
 
 ## Download and install:
 
